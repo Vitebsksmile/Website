@@ -18,6 +18,10 @@ a:active {
     color: blue;
 }
 
+a:visited {
+    color: gray;
+}
+
 .container {
     max-width: 750px;
     margin: auto;
@@ -37,4 +41,11 @@ a:active {
     width: 300px;
     border-radius: 28px;
     box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }    
 }
